@@ -2,7 +2,7 @@
   "customManagers": [{
     "customType": "jsonata",
     "fileFormat": "toml",
-    "fileMatch": ["file.toml"]
+    "fileMatch": ["file.toml"],
     "matchStrings": ["$each(tools, function($v, $k)){ {\"depName\": $k, \"currentValue\": $v, \"datasource\": $k = \"erlang\" ? \"github-tags\": \"node-version\"} }"]
   }]
 }
