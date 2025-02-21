@@ -1,0 +1,9 @@
+{
+  "customManagers": [{
+    "customType": "jsonata",
+    "fileFormat": "toml",
+    "fileMatch": ["file.toml"]
+    "datasourceTemplate": "maven",
+    "matchStrings": [""]
+  }]
+}
