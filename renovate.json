@@ -3,7 +3,6 @@
     "customType": "jsonata",
     "fileFormat": "toml",
     "fileMatch": ["file.toml"]
-    "datasourceTemplate": "maven",
-    "matchStrings": [""]
+    "matchStrings": ["$each(tools, function($k, $v)){ {\"depName\": $k, \"currentValue\": $v, \"datasource\": $k = \"erlang\" ? \"github-tags\": \"node-version\"} }"]
   }]
 }
